@@ -1,3 +1,4 @@
+#include <PubSubClient.h>
 #include <ESP8266WiFi.h>
  
 const char* ssid = "Cunha";//type your ssid

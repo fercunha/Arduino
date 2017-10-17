@@ -6,8 +6,8 @@
  
 //defines:
 //defines de id mqtt e tópicos para publicação e subscribe
-#define TOPICO_SUBSCRIBE "MQTTFilipeFlopEnvia"     //tópico MQTT de escuta
-#define TOPICO_PUBLISH   "MQTTFilipeFlopRecebe"    //tópico MQTT de envio de informações para Broker
+#define TOPICO_SUBSCRIBE "esp8266_247/escuta"     //tópico MQTT de escuta
+#define TOPICO_PUBLISH   "esp8266_247/publica"    //tópico MQTT de envio de informações para Broker
                                                    //IMPORTANTE: recomendamos fortemente alterar os nomes
                                                    //            desses tópicos. Caso contrário, há grandes
                                                    //            chances de você controlar e monitorar o NodeMCU
@@ -34,8 +34,8 @@
  
  
 // WIFI
-const char* SSID = "SSID"; // SSID / nome da rede WI-FI que deseja se conectar
-const char* PASSWORD = "SENHA"; // Senha da rede WI-FI que deseja se conectar
+const char* SSID = "Cunha"; // SSID / nome da rede WI-FI que deseja se conectar
+const char* PASSWORD = "cunhacunha"; // Senha da rede WI-FI que deseja se conectar
  
 // MQTT
 const char* BROKER_MQTT = "iot.eclipse.org"; //URL do broker MQTT que se deseja utilizar
