@@ -34,8 +34,8 @@
  
  
 // WIFI
-const char* SSID = "Cunha"; // SSID / nome da rede WI-FI que deseja se conectar
-const char* PASSWORD = "cunhacunha"; // Senha da rede WI-FI que deseja se conectar
+const char* SSID = "B1"; // SSID / nome da rede WI-FI que deseja se conectar
+const char* PASSWORD = "casaaleban"; // Senha da rede WI-FI que deseja se conectar
  
 // MQTT
 const char* BROKER_MQTT = "iot.eclipse.org"; //URL do broker MQTT que se deseja utilizar
